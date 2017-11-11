@@ -37,9 +37,15 @@ function prependDriver(){
 };
 function removeLastDriver(){
   const newArrayThree = [...drivers];
-  
+
 newArrayThree.pop(3);
 
 return newArrayThree;
-  
+
 };
+function removeFirstDriver(){
+  const newArrayFour = [...drivers];
+
+newArrayFour.shift(0);
+
+return newArrayFour;
