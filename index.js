@@ -21,6 +21,4 @@ function destructivelyRemoveFirstDriver(){
 };
 
 
-  const appendDrivers[...drivers, 'Broom'];
-
-
+  
