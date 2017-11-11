@@ -35,3 +35,11 @@ function prependDriver(){
 
    return newArrayTwo;
 };
+function removeLastDriver(){
+  const newArrayThree = [...drivers];
+  
+newArrayThree.pop(3);
+
+return newArrayThree;
+  
+};
