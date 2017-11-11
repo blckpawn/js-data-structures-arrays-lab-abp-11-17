@@ -21,5 +21,6 @@ function destructivelyRemoveFirstDriver(){
 };
 function appendDriver(){
   drivers.slice();
-  
+
+drivers.push('Broom');
 };
