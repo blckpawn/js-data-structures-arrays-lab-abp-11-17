@@ -5,9 +5,9 @@ const drivers = ["Milo", "Otis", "Garfield" ];
 
 };
 function appendDriver(){
-   const allDrivers = drivers.splice();
+   const allDrivers = [...drivers,];
 
-   drivers.push("Broom");
+   allDrivers.push('Broom');
 
 
 };
