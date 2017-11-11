@@ -49,3 +49,4 @@ function removeFirstDriver(){
 newArrayFour.shift(0);
 
 return newArrayFour;
+}
