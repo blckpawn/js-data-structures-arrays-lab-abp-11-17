@@ -29,9 +29,9 @@ function appendDriver(){
 };
 
 function prependDriver(){
-   const newArray = [ ,...drivers];
+   const newArrayTwo = [ ,...drivers];
 
-   newArray.push('Arnold';
+   newArrayTwo.push('Arnold');
 
-   return newArray;
+   return newArrayTwo;
 };
