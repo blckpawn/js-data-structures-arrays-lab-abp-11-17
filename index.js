@@ -6,4 +6,6 @@ function appendDriver(){
    const newArray = [...drivers,];
 
   newArray.push('Broom' );
+
+  return newArray;
 };
