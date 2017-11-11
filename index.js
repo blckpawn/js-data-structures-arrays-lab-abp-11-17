@@ -22,7 +22,7 @@ function destructivelyRemoveFirstDriver(){
 function appendDriver(){
 
 
-  drivers.slice("Broom");
+  drivers.slice();
 
 
 };
