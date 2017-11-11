@@ -29,7 +29,7 @@ function appendDriver(){
 };
 
 function prependDriver(){
-   const newArrayTwo = [ ,...drivers];
+   const newArrayTwo = [ ...drivers];
 
    newArrayTwo.unshift('Arnold');
 
