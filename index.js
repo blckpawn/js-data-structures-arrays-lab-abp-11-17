@@ -18,3 +18,6 @@ function destructivelyRemoveLastDriver(){
 function destructivelyRemoveFirstDriver(){
   drivers.shift('Milo');
 };
+function appendDriver(){
+  const copyOfDriver = drivers.slice('Broom');
+};
