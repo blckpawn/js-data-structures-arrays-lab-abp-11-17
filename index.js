@@ -20,5 +20,6 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift('Milo');
 };
 function appendDriver(){
-  drivers.slice("Broom");
+  const allDrivers = drivers.push();
+  drivers.push("Broom");
 };
